@@ -1,4 +1,41 @@
-.childC{
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+.childC {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
+  
+}
+button {
+  border-radius: 25px;
+  width: 146px;
+  height: 48px;
+  background-color: #f2f2f2;
+  margin-top: 83px ;
+  border-color: white;
+  margin-left: 48px;
+}
+h2{
+  font-family: 'Big Shoulder Display';
+  font-weight: 700;
+  font-size: 40px;
+  margin-left: 48px;
+  margin-top: 35px;
+}
+p{
+  font-family: 'Lexend Deca';
+  font-weight: 400;
+  font-size: 15px;
+  margin-left: 48px;
+  margin-top: 25px;
+  opacity: 75%;
+}
+@media screen and (max-width:307px) {
+  .house{
+    display: flex;
+    flex-direction: column;
+   
+  
+  }
+  
 }

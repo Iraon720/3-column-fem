@@ -1,9 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
 .house{
   margin-top: 175px;
   width: 920px;
   height: 500px;
   margin-left: 275px;
   display: flex;
-  flex-direction: column;
- 
+  flex-direction: row;
+  color: white;
+  border-radius: 8px;
+  
+}
+@media screen and (max-width: 768px) {
+  .house{
+    display: flex;
+    flex-direction: column;
+  width: 307px;
+  height: 1500px;
+  }
+  
 }
