@@ -1,7 +1,9 @@
 .house{
-  margin-top: 250px;
-  width: 300px;
-  margin-left: 300px;
+  margin-top: 175px;
+  width: 920px;
+  height: 500px;
+  margin-left: 275px;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+ 
 }
