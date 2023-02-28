@@ -9,7 +9,7 @@ const Child = (options)=> {
       <img
         src={options.icon}
         alt=''
-        style={{ height: '40px', width: '60px', marginTop:'27px', marginLeft:'40px' }}
+        style={{ height: '40px', width: '60px', marginTop:'35px', marginLeft:'40px' }}
       />
       <h2 style={{color:'white'}}>{options.headline}</h2>
       <p style={{width:'200px'}}>{options.description}</p>

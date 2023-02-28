@@ -9,6 +9,7 @@
   flex-direction: row;
   color: white;
   border-radius: 8px;
+  background-color: hsl(31, 77%, 52%) ;
   
 }
 @media screen and (max-width: 768px) {
@@ -18,5 +19,20 @@
   width: 307px;
   height: 1500px;
   }
-  
+  .room1{
+
+border-top-left-radius: 9px;
+border-top-right-radius: 9px;
+  }
+  .room2{
+    border-top-left-radius: 9px;
+border-top-right-radius: 9px;
+  }
+  .room3{
+    border-bottom-left-radius: 9px;
+    border-bottom-right-radius: 9px;
+    border-top-left-radius:none;
+    border-top-right-radius: none;
+  }
 }
+
